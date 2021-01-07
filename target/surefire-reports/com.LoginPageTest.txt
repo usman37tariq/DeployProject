@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.LoginPageTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.225 sec <<< FAILURE! - in com.LoginPageTest
+compare_int()  Time elapsed: 0.028 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Did not Run Suceesfully
+	at com.LoginPageTest.compare_int(LoginPageTest.java:29)
+

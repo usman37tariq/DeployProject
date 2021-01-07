@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="066554c7-db15-483a-bffb-f97c9a7f8454" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_api_5_0_0_RC1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/LoginPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Main_Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Main_Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Main_ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Main_ClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Main_Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Main_ClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Demo_test_unit-1.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/Main_Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.Main_ClassTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.Main_ClassTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/Main_ClassTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,10 +61,25 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Main_ClassTest">
+  <component name="RunManager" selected="JUnit.LoginPageTest">
     <configuration name="Main_Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Main_Class" />
       <module name="Demo_test_unit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Demo_test_unit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.LoginPageTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -64,7 +88,7 @@
       <module name="Demo_test_unit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="com.testcases.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginPageTest" />
         <item itemvalue="JUnit.Main_ClassTest" />
         <item itemvalue="Application.Main_Class" />
       </list>
@@ -103,21 +128,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/Main_Class.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/Main_ClassTest.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

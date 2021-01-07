@@ -4,7 +4,7 @@ package com;
 import org.junit.jupiter.api.Assertions;
 
 
-public class Main_Class {
+public class LoginPage {
 
 
     public boolean compare_string(){
