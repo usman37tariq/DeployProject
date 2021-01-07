@@ -1,16 +1,10 @@
 package com;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
 
-import org.junit.Test;
-import com.Main_Class;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
-import org.junit.runner.notification.Failure;
-import org.testng.annotations.BeforeTest;
+import org.junit.jupiter.api.Assertions;
+
+import org.junit.jupiter.api.Test;
+
 
 public class Main_ClassTest {
     Main_Class Class;
@@ -20,7 +14,7 @@ public class Main_ClassTest {
         Class = new Main_Class();
         boolean result = Class.compare_string();
         if(false) {
-            fail("Did not Run Suceesfully");
+            Assertions.fail("Did not Run Suceesfully");
         }
         else{
         System.out.println("Run Suceesfully");
@@ -32,7 +26,7 @@ public class Main_ClassTest {
         Class = new Main_Class();
         int result = Class.compare_number();
         if(result>10) {
-            fail("Did not Run Suceesfully");
+            Assertions.fail("Did not Run Suceesfully");
         }
         else{
             System.out.println("Run Suceesfully");
