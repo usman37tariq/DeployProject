@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.LoginPageTest" time="0.225" tests="5" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.LoginPageTest" time="0.147" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2020.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,13 +64,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="openbrowser" classname="com.LoginPageTest" time="0.021"/>
-  <testcase name="checkbrowser" classname="com.LoginPageTest" time="0.002"/>
-  <testcase name="compare_int" classname="com.LoginPageTest" time="0.028">
-    <failure message="Did not Run Suceesfully" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Did not Run Suceesfully
-	at com.LoginPageTest.compare_int(LoginPageTest.java:29)
-</failure>
-  </testcase>
-  <testcase name="compare_str" classname="com.LoginPageTest" time="0.002"/>
-  <testcase name="closebrowser" classname="com.LoginPageTest" time="0.005"/>
+  <testcase name="openbrowser" classname="com.LoginPageTest" time="0.012"/>
+  <testcase name="checkbrowser" classname="com.LoginPageTest" time="0"/>
+  <testcase name="compare_int" classname="com.LoginPageTest" time="0"/>
+  <testcase name="compare_str" classname="com.LoginPageTest" time="0.004"/>
+  <testcase name="closebrowser" classname="com.LoginPageTest" time="0.001"/>
 </testsuite>

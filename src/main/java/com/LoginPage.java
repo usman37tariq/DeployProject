@@ -19,8 +19,8 @@ public class LoginPage {
     }
 
     public int compare_number(){
-        int a=5;
-        int b=6;
+        int a=2;
+        int b=3;
         return a+b;
     }
 
