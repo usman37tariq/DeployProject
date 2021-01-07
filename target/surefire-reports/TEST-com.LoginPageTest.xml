@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.LoginPageTest" time="0.147" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.LoginPageTest" time="0.284" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2020.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,9 +64,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="openbrowser" classname="com.LoginPageTest" time="0.012"/>
+  <testcase name="openbrowser" classname="com.LoginPageTest" time="0.017"/>
   <testcase name="checkbrowser" classname="com.LoginPageTest" time="0"/>
-  <testcase name="compare_int" classname="com.LoginPageTest" time="0"/>
-  <testcase name="compare_str" classname="com.LoginPageTest" time="0.004"/>
-  <testcase name="closebrowser" classname="com.LoginPageTest" time="0.001"/>
+  <testcase name="compare_int" classname="com.LoginPageTest" time="0.001"/>
+  <testcase name="compare_str" classname="com.LoginPageTest" time="0.011"/>
+  <testcase name="closebrowser" classname="com.LoginPageTest" time="0.005"/>
 </testsuite>
